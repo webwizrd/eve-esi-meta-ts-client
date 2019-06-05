@@ -1,0 +1,47 @@
+{
+  "name": "eve-esi-meta-ts-client",
+  "version": "0.0.1",
+  "description": "Swagger-generated client for EVE Online UI (ESI-meta) in Typescript and Angular",
+  "keywords": [
+    "ESI",
+    "EVE Online",
+    "eve",
+    "api",
+    "swagger"
+  ],
+  "author": {
+    "name": "Andy https://github.com/webwizrd",
+    "email": "casualtoolcoder@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webwizrd/eve-esi-meta-ts-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webwizrd/eve-esi-meta-ts-client/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^7.2.7",
+    "@angular/core": "^7.2.7",
+    "@angular/http": "^7.2.7",
+    "@angular/common": "^7.2.7",
+    "@angular/compiler": "^7.2.7",
+    "@angular/platform-browser": "^7.2.7",
+    "core-js": "^2.4.0",
+    "ng-packagr": "^5.2.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^6.4.0",
+    "zone.js": "^0.8.29",
+    "typescript": ">=3.1.1 and <3.3.0"
+  }
+}
